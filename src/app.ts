@@ -20,7 +20,7 @@ class App{
     const port = process.env.PORT ? Number(process.env.PORT) : 3333
     
     this.http.listen(port,()=>{
-      console.log(`Server running on port ${port}`)
+      console.log(`Your server is running on port ${port}`)
     })
   }
 
